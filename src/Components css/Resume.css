@@ -18,7 +18,6 @@
 }
 
 hr {
-  width: 100px;
   position: relative;
   width: 150vh;
   left: -2vw;
@@ -33,4 +32,22 @@ hr {
   text-align: center;
   padding: 2vh;
   width: 8vw;
+}
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .container-resume {
+    flex-direction: column;
+  }
+  hr {
+    width: 80vw;
+  }
+  h1,
+  h2,
+  h3 {
+    width: 80vw;
+  }
+
+  .name-section,
+  .info-section {
+    width: 80vw;
+  }
 }
