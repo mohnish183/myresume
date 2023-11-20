@@ -1,0 +1,42 @@
+.info-table {
+  width: 60%;
+  position: relative;
+  left: 20vw;
+  border: 1px solid orange;
+
+  border-top: none;
+}
+td {
+}
+.info-table td {
+  padding: 2vh;
+}
+th {
+  padding: 2vh;
+}
+.font > * {
+  text-decoration: none;
+}
+tr td:nth-child(1) {
+  text-align: center;
+}
+tr td:nth-child(2) {
+  position: relative;
+  left: 5vw;
+}
+.content {
+  border: 1px solid orange;
+  padding: 4vh;
+  width: 80vw;
+  margin-bottom: 5vh;
+}
+.info h2 {
+  padding: 2vh;
+}
+p {
+  line-height: 6vh;
+  width: 80%;
+  text-align: justify;
+  position: relative;
+  left: 6vw;
+}

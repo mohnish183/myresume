@@ -1,0 +1,33 @@
+.header-section {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.my-img {
+  width: 50vw;
+  height: 90vh;
+}
+.header-content {
+  background-color: black;
+  width: 50vw;
+  color: white;
+  position: relative;
+}
+.header-content h2 {
+  position: absolute;
+  top: 10vw;
+  width: 100%;
+  text-align: center;
+}
+
+.emojy-img {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 1vw;
+  top: 45vh;
+}
+.emojy-img img {
+  width: 10vw;
+  margin-left: 2vw;
+}

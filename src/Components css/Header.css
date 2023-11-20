@@ -1,0 +1,12 @@
+.nav-class {
+  display: flex;
+  background: linear-gradient(orange, orange);
+  height: 5vh;
+  padding: 2vh 0;
+}
+.nav-class * {
+  width: 30%;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}

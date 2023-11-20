@@ -1,0 +1,36 @@
+.container-resume {
+  display: flex;
+  margin-top: 4vh;
+}
+.resume-img {
+  position: relative;
+  left: 2vw;
+}
+.info-section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 5vw;
+}
+
+.edu-section {
+  margin-top: 5vh;
+}
+
+hr {
+  width: 100px;
+  position: relative;
+  width: 150vh;
+  left: -2vw;
+  border-color: orange;
+}
+.skill-table {
+  width: 60vw;
+  position: relative;
+  left: 5vw;
+}
+.skill-table td {
+  text-align: center;
+  padding: 2vh;
+  width: 8vw;
+}
